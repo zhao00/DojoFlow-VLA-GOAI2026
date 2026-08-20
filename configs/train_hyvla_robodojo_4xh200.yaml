@@ -1,0 +1,63 @@
+# Sanitized record of the completed DojoFlow-VLA training run.
+debug: false
+seed: 42
+deepspeed: ./config/zero2.json
+save_training_state: false
+checkpoints_total_limit: 5
+
+training:
+  mixed_precision: bf16
+  batch_size: 8
+  max_training_steps: 200000
+  max_evaluation_steps: 100
+  optimizer_lr: 5.0e-5
+  optimizer_betas: [0.9, 0.95]
+  optimizer_eps: 1.0e-8
+  optimizer_weight_decay: 1.0e-10
+  scheduler_warmup_steps: 1000
+  scheduler_decay_steps: 150000
+  scheduler_decay_lr: 5.0e-6
+  grad_accumulation_steps: 1
+  max_grad_norm: 1.0
+  train_frequency: 50
+  ckpt_frequency: 10000
+  eval_frequency: 5000
+
+model:
+  pretrain_source: vla
+  visual_segment_isolation: false
+  vlm_model_path: tencent/HY-Embodied-0.5
+  vla_model_path: /path/to/Hy-Embodied-0.5-VLA-UMI
+
+dataloader:
+  batch_size: 8
+  shuffle: true
+  num_workers: 8
+  prefetch_factor: 4
+  pin_memory: true
+  persistent_workers: true
+
+dataset:
+  source: robodojo
+  hdf5_dir: /path/to/robodojo_hdf5
+  image_aug: true
+  camera_randomcrop_aug: true
+  cond_mask_prob: 0.0
+  cam_ext_mask_prob: -1.0
+  img_history_size: 6
+  img_history_interval: 20
+  img_history_random_sample: false
+  action_chunk_size: 25
+  state_dim: 32
+  num_cameras: 3
+  image_size: 224
+  auto_adjust_image_brightness: true
+  mean_std_path: /path/to/experiments/goai_track1_hyvla/norm_stats.pkl
+  mean_std_chunk_slice: 25
+  act_type: relative_chunk_ee_RT
+  downsample_rate: 1
+  umi_coord_frame: true
+  umi_gripper_space: false
+  filter_dirty: true
+  deterministic: true
+  use_video_encoder: true

@@ -1,0 +1,23 @@
+{
+  "project": "DojoFlow-VLA",
+  "checkpoint_step_directory": 199999,
+  "completed_training_steps": 200000,
+  "archive_name": "HyVLA-GOAI-step-199999.tar",
+  "archive_size_bytes": 9063321600,
+  "archive_sha256": "a27e6b56e5b3bd41e8627d2d0c30d44e888829ed36fa861b2fa9bcc6c62e8d02",
+  "norm_stats_name": "norm_stats.pkl",
+  "norm_stats_sha256": "8ab506debab53fd20b0235a0e025f10daf3973d5a9ab8111e0f67a27a331e319",
+  "hy_vla_commit": "af57e7507ec5964b52fdf6296741e553cbcd3288",
+  "robodojo_commit": "36bfcb7c580b149c6e39ed2eb77d60689152e570",
+  "xpolicylab_training_record_commit": "3dddc0f0305b78e0d28bdc53e14fbdcf59b5cd08",
+  "xpolicylab_evaluation_commit": "432f82b1758c5b1202e42a3dfe014546dbc50871",
+  "wandb_run_id": "2plm476a",
+  "download_url": "https://modelscope.cn/models/kong00/HyVLA-GOAI",
+  "download_visibility": "private; organizer access must be granted explicitly",
+  "closed_loop_evaluation": {
+    "local_smoke": "complete: 24/24 configurations produced valid result files",
+    "local_smoke_binary_successes": 3,
+    "local_smoke_episodes": 24,
+    "official_evaluation": "pending organizer result"
+  }
+}

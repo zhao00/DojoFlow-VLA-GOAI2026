@@ -1,0 +1,7 @@
+task,variant,checkpoint,seed,eval_num,success,fail,success_rate,score,runner_status,source
+pack_objects_into_box,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,50.0,PASS,original 24-config smoke
+pack_objects_into_box,standard,HyVLA-GOAI-step-199999,1,1,0,1,0.0,0.0,PASS,supplemental seed test
+pack_objects_into_box,standard,HyVLA-GOAI-step-199999,2,1,0,1,0.0,25.0,PASS,supplemental seed test
+pack_objects_into_box_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,25.0,PASS,original 24-config smoke
+pack_objects_into_box_random,random,HyVLA-GOAI-step-199999,1,1,0,1,0.0,0.0,PASS,supplemental seed test
+pack_objects_into_box_random,random,HyVLA-GOAI-step-199999,2,1,0,1,0.0,25.0,PASS,supplemental seed test

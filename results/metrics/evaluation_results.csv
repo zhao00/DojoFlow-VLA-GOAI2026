@@ -1,0 +1,25 @@
+task,variant,checkpoint,seed,episodes,successes,failures,success_rate,score,runner_status,wall_time_s,simulator,notes
+arrange_largest_number,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,5.0,PASS,494,RoboDojo+IsaacSim5.1,local smoke; partial score
+arrange_largest_number_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,592,RoboDojo+IsaacSim5.1,local smoke
+fold_clothes,standard,HyVLA-GOAI-step-199999,0,1,1,0,1.0,100.0,PASS,315,RoboDojo+IsaacSim5.1,local smoke; binary success
+fold_clothes_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,526,RoboDojo+IsaacSim5.1,local smoke
+hang_mugs,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,438,RoboDojo+IsaacSim5.1,local smoke
+hang_mugs_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,596,RoboDojo+IsaacSim5.1,local smoke
+make_toast,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,671,RoboDojo+IsaacSim5.1,local smoke
+make_toast_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,694,RoboDojo+IsaacSim5.1,local smoke
+pack_objects_into_box,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,50.0,PASS,577,RoboDojo+IsaacSim5.1,local smoke; partial score
+pack_objects_into_box_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,25.0,PASS,681,RoboDojo+IsaacSim5.1,local smoke; partial score
+pour_liquid_into_cup,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,364,RoboDojo+IsaacSim5.1,local smoke
+pour_liquid_into_cup_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,477,RoboDojo+IsaacSim5.1,local smoke
+push_T,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,374,RoboDojo+IsaacSim5.1,local smoke
+push_T_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,395,RoboDojo+IsaacSim5.1,local smoke
+sort_nesting_dolls_by_size,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,517,RoboDojo+IsaacSim5.1,local smoke
+sort_nesting_dolls_by_size_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,563,RoboDojo+IsaacSim5.1,local smoke
+stack_blocks,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,358,RoboDojo+IsaacSim5.1,local smoke
+stack_blocks_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,416,RoboDojo+IsaacSim5.1,local smoke
+stack_bowls,standard,HyVLA-GOAI-step-199999,0,1,1,0,1.0,100.0,PASS,312,RoboDojo+IsaacSim5.1,local smoke; binary success
+stack_bowls_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,482,RoboDojo+IsaacSim5.1,local smoke
+store_laptop_and_headphones,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,488,RoboDojo+IsaacSim5.1,local smoke
+store_laptop_and_headphones_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,430,RoboDojo+IsaacSim5.1,local smoke
+sweep_blocks,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,489,RoboDojo+IsaacSim5.1,local smoke
+sweep_blocks_random,random,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,517,RoboDojo+IsaacSim5.1,local smoke

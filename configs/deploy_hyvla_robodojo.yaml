@@ -1,0 +1,25 @@
+# Overrides corresponding to XPolicyLab/policy/Hy_Embodied_05_VLA/deploy.yml.
+# Use the upstream adapter; do not treat this file as a standalone launcher.
+policy_name: Hy_Embodied_05_VLA
+protocol: ws
+host: localhost
+port: 6000
+
+bench_name: RoboDojo
+env_cfg_type: arx_x5
+action_type: ee
+eval_batch: false
+
+ckpt_path: /path/to/HyVLA-GOAI-step-199999
+norm_path: /path/to/HyVLA-GOAI-step-199999/norm_stats.pkl
+
+with_absolute: false
+blend_mode: rel_only
+umi_coord_frame: true
+umi_gripper_space: false
+
+exc_action_size: 10
+exc_action_interval: 1
+history_cadence: chunk
+img_history_size: 6
+img_history_interval: 20

@@ -1,0 +1,4 @@
+task,variant,checkpoint,seed,episodes,successes,failures,success_rate,score,runner_status,notes
+pour_liquid_into_cup,standard,HyVLA-GOAI-step-199999,0,1,0,1,0.0,0.0,PASS,original 24-config smoke
+pour_liquid_into_cup,standard,HyVLA-GOAI-step-199999,1,1,1,0,1.0,100.0,PASS,supplemental seed test
+pour_liquid_into_cup,standard,HyVLA-GOAI-step-199999,2,1,0,1,0.0,0.0,PASS,supplemental seed test

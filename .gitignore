@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Credentials and local overrides
+.env
+*.key
+*.pem
+secrets/
+
+# Large or generated artifacts
+*.tar
+*.tar.gz
+*.zip
+*.safetensors
+*.bin
+checkpoints/
+models/
+data/
+datasets/
+wandb/
+logs/
+outputs/
+
+# Generated submission files are intentionally versioned beside their Markdown
+# sources so reviewers can open the submission documents directly.
