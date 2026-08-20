@@ -13,7 +13,7 @@
   "xpolicylab_evaluation_commit": "432f82b1758c5b1202e42a3dfe014546dbc50871",
   "wandb_run_id": "2plm476a",
   "download_url": "https://modelscope.cn/models/kong00/HyVLA-GOAI",
-  "download_visibility": "private; organizer access must be granted explicitly",
+  "download_visibility": "public",
   "closed_loop_evaluation": {
     "local_smoke": "complete: 24/24 configurations produced valid result files",
     "local_smoke_binary_successes": 3,

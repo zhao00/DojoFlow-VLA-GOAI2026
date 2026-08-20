@@ -17,6 +17,7 @@ secrets/
 *.zip
 *.safetensors
 *.bin
+*.pdf
 checkpoints/
 models/
 data/
@@ -24,6 +25,3 @@ datasets/
 wandb/
 logs/
 outputs/
-
-# Generated submission files are intentionally versioned beside their Markdown
-# sources so reviewers can open the submission documents directly.
