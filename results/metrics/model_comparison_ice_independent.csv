@@ -1,5 +1,0 @@
-model,checkpoint,action_type,scope,episodes,successes,success_rate_percent,mean_score,successful_tasks,comparable_24_config_run,decision
-ACT,RoboDojo-stack_bowls-arx_x5-joint-0,joint,stack_bowls only; 5 episodes,5,0,0.0,,,False,动作闭环可用，但抓取和持物稳定性不足
-StarVLA PI-v3,steps_100000,joint,Generalization 24 configs; seed 0,24,2,8.33,10.42,fold_clothes;stack_bowls,True,无需本地训练的可运行基线
-HyVLA-70k,HyVLA-GOAI-step-69999,ee,Generalization 24 configs; seed 0,24,1,4.17,7.08,stack_bowls,True,流程可用，但训练步数不足
-HyVLA-200k,HyVLA-GOAI-step-199999,ee,Generalization 24 configs; seed 0,24,3,12.5,15.0,fold_clothes;pour_liquid_into_cup;stack_bowls,True,独立复核结果最好，选为最终候选
