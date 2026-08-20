@@ -19,6 +19,5 @@
 
 ## 模型权重
 
-微调权重不进入 Git 历史。评审使用受控 ModelScope 仓库获取权重，地址和 SHA-256 见
-`artifacts/checkpoint_manifest.json`。仓库默认保持 Private，需显式授予主办方账号访问
-权限。使用者还应遵守基础模型许可证和比赛数据授权条款。
+微调权重不进入 Git 历史。模型通过公开 ModelScope 仓库发布，地址和 SHA-256 见
+`artifacts/checkpoint_manifest.json`。使用者还应遵守基础模型许可证和比赛数据授权条款。
